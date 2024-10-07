@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(102, 115, 173);
+    font-family:'Bai Jamjuree',sans-serif;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 2rem;
+
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.6rem;
+    margin: 0.6rem;
+}
+
+#container{
+    display: flex;
+}
+
+.cartao{
+    margin: 2rem;
+    height: 20rem;
+    background-color: rgb(85, 115, 135);
+    color: aliceblue;
+}
+
+.cartao-conteudo{
+    text-align: center;
+    height: 100%;
+}
+
+.cartao-conteudo h3{
+    background-color: rgb(155, 69, 163);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+}
+
+.roland{
+    height: 50px;
+}
