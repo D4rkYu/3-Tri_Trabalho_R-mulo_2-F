@@ -5,9 +5,16 @@
     padding: 0;
 }
 
+:root{
+    --cor-do-texto: #DBE4ef;
+    --cor-cartao-frente: #144480;
+    --cor-cartao-verso: #00f4bf;
+}
+
 body{
-    background-color: rgb(102, 115, 173);
+    background: url(../img/bg-desktop.webp);
     font-family:'Bai Jamjuree',sans-serif;
+
 }
 
 footer{
@@ -50,6 +57,11 @@ footer p{
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
+}
+
+.cartao-conteudo-pergunta{
+    color: var(--cor-do-texto);
+    font-weight: 500;
 }
 
 .roland{
