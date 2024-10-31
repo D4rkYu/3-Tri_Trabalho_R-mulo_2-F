@@ -72,15 +72,14 @@ footer p{
     font-weight: 500;
 }
 
-.cartao-conteudo-resposta{
-    transform: rotateY(180deg);
-}
-
-.cartao-conteudo-pergunta, .cartao-conteudo-resposta{
+.cartao-conteudo-pergunta,.cartao-conteudo-resposta{
     margin: 1rem;
     backface-visibility: hidden;
 }
 
+.cartao-conteudo-resposta{
+    transform: rotateY(180deg);
+}
 .roland{
     height: 50px;
 }
